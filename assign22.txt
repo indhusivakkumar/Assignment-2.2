@@ -1,0 +1,46 @@
+1.HDFS
+
+*HDFS stands for Hadoop Distributed File System.
+*It  deals with a storage of large amounts of data in a reliable manner and
+also it helps to stream the data to user applications with high bandwidth.
+*HDFS is developed using java.
+*Hadoop uses HDFS for storage purpose.
+*HDFS stores files across the collection of servers in a cluster.
+*HDFS runs on commodity hardware.
+*HDFS detects and compensates for hardware issues.
+*Shell commands is supported by Hadoop to interact with HDFS
+Advantages:
+It  is  
+ *scalable
+ *fault-tolerant
+ *distributed storage system.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2.Hadoop cluster:
+
+*A computer cluster used for Hadoop is called Hadoop Cluster which is used to boost 
+the  speed of data analysis applications
+*Hadoop cluster is designed  for storing and analyzing large amounts of 
+unstructured data.
+*There are 3 types of nodes in Hadoop cluster
+-master nodes
+-worker nodes
+-client nodes. 
+*Clusters of three or more machines typically use a single NameNode and ResourceManager
+ with all the other nodes as slave nodes. 
+Advantages:
+*Scalable
+*Highly resistant to failures.
+*Handles large amount of data
+*It runs in low cost commodity hardwares.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3.HDFS Blocks:
+
+*Data is stored in terms of blocks in Hadoop Distributed FIle System
+*The default size of hdfs block is 64MB.
+*The default replication factor of blocks is 3.
+*HDFS blocks are larger in size in order to reduce the cost of seek time.
+*Hard Disk has concentric circles which forms tracks.
+*Blocks are linked to the file through INode
+*Each block has a timestamp which is used to determine whether a 
+ replica is current. 
